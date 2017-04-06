@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zhaoliang.com.android52">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.day01.Day01Activity" />
+        <activity android:name=".ui.day02.Day02Activity" />
+        <activity android:name=".ui.day03.Day03Activity" />
+        <activity android:name=".ui.day04.Day04Activity" />
+        <activity android:name=".ui.day05.Day05Activity" />
+        <activity android:name=".ui.day06.Day06Activity" />
+        <activity android:name=".ui.day07.Day07Activity" />
+        <activity android:name=".ui.day08.Day08Activity" />
+        <activity android:name=".ui.day09.Day09Activity" />
+        <activity android:name=".ui.day10.Day10Activity" />
+        <activity android:name=".ui.day11.Day11Activity" />
+        <activity android:name=".ui.day12.Day12Activity"></activity>
+    </application>
+
+</manifest>

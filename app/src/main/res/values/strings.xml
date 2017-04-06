@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Android52</string>
+
+    <array name="MainItem">
+        <item>day01_快速入门</item>
+        <item>day02_数据存储和界面展示上</item>
+        <item>day03_数据存储和界面展示下</item>
+        <item>day04_网络编程上</item>
+        <item>day05_网络编程下</item>
+        <item>day06_页面跳转和数据传递</item>
+        <item>day07_广播和服务上</item>
+        <item>day08_广播和服务下</item>
+        <item>day09_多媒体编程</item>
+        <item>day10_内容提供者</item>
+        <item>day11_新特性和知识点回顾</item>
+        <item>day12_总结</item>
+    </array>
+
+    <array name="Day01">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day02">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day03">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day04">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day05">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day06">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day07">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day08">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day09">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day10">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day11">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+    <array name="Day12">
+        <item>HelloWorld</item>
+        <item>PhoneDialer</item>
+        <item>SmsSender</item>
+        <item>ClickEvent</item>
+    </array>
+</resources>
