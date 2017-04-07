@@ -52,7 +52,13 @@
         <activity android:name=".ui.day04.simplenewsclient.SimpleNewsClientActivity" />
         <activity android:name=".ui.day04.getandpost.GETAndPOSTActivity" />
         <activity android:name=".ui.day05.httpclientandasynchttpclient.HttpClientAndAsyncHttpClientActivity" />
-        <activity android:name=".ui.day05.downloader.DownloaderActivity"></activity>
+        <activity android:name=".ui.day05.downloader.DownloaderActivity" />
+        <activity android:name=".ui.day06.secondactivity.SecondActivity" />
+        <activity android:name=".ui.day06.activityjump.ActivityJumpActivity" />
+        <activity android:name=".ui.day06.activitylifecycle.ActivityLifeCycleActivity" />
+        <activity android:name=".ui.day06.activitylunchmode.ActivityLunchModeActivity" />
+        <activity android:name=".ui.day06.screenorientation.ScreenOrientationActivity" />
+        <activity android:name=".ui.day06.startactivityforresult.StartActivityForResultActivity"></activity>
     </application>
 
 </manifest>

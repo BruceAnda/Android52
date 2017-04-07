@@ -56,10 +56,12 @@
         <item>Downloader</item>
     </array>
     <array name="Day06">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>SecondActivity</item>
+        <item>ActivityJump</item>
+        <item>ActivityLifeCycle</item>
+        <item>ActivityLunchMode</item>
+        <item>ScreenOrientation</item>
+        <item>StartActivityForResult</item>
     </array>
     <array name="Day07">
         <item>HelloWorld</item>
