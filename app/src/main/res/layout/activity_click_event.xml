@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zhaoliang.com.android52.ui.day01.clickevent.ClickEventActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="@string/day01_values6" />
+
+    <Button
+        android:id="@+id/btn_click_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/day01_values7" />
+
+    <Button
+        android:id="@+id/btn_click_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/day01_values8" />
+
+    <Button
+        android:id="@+id/btn_click_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/day01_values9" />
+</LinearLayout>

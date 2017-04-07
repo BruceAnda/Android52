@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zhaoliang.com.android52.ui.day01.smssender.SmsSenderActivity">
+
+    <EditText
+        android:id="@+id/et_sms_phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/day01_values2" />
+
+    <EditText
+        android:id="@+id/et_sms_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/day01_values4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="send"
+        android:text="@string/day01_values5" />
+</LinearLayout>

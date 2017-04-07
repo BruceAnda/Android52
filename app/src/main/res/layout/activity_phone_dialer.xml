@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zhaoliang.com.android52.ui.day01.phonedialer.PhoneDialerActivity">
+
+    <EditText
+        android:id="@+id/et_phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/day01_values2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callPhone"
+        android:text="@string/day01_values3" />
+</LinearLayout>

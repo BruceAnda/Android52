@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">Android52</string>
+    <string name="day01_values1">HelloWorld!</string>
+    <string name="day01_values2">请输入电话号码！</string>
+    <string name="day01_values3">拨打电话</string>
+    <string name="day01_values4">请输入短信内容</string>
+    <string name="day01_values5">发送短信</string>
+    <string name="day01_values6">第一种点击事件写法</string>
+    <string name="day01_values7">第二种点击事件写法</string>
+    <string name="day01_values8">第三种点击事件写法</string>
+    <string name="day01_values9">第四种点击事件写法</string>
 
     <array name="MainItem">
         <item>day01_快速入门</item>

@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="zhaoliang.com.android52">
 
+    <!-- 拨打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 发送短信的权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,7 +32,11 @@
         <activity android:name=".ui.day09.Day09Activity" />
         <activity android:name=".ui.day10.Day10Activity" />
         <activity android:name=".ui.day11.Day11Activity" />
-        <activity android:name=".ui.day12.Day12Activity"></activity>
+        <activity android:name=".ui.day12.Day12Activity" />
+        <activity android:name=".ui.day01.helloworld.HelloWorldActivity" />
+        <activity android:name=".ui.day01.phonedialer.PhoneDialerActivity" />
+        <activity android:name=".ui.day01.smssender.SmsSenderActivity" />
+        <activity android:name=".ui.day01.clickevent.ClickEventActivity"></activity>
     </application>
 
 </manifest>
