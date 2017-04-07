@@ -36,7 +36,17 @@
         <activity android:name=".ui.day01.helloworld.HelloWorldActivity" />
         <activity android:name=".ui.day01.phonedialer.PhoneDialerActivity" />
         <activity android:name=".ui.day01.smssender.SmsSenderActivity" />
-        <activity android:name=".ui.day01.clickevent.ClickEventActivity"></activity>
+        <activity android:name=".ui.day01.clickevent.ClickEventActivity" />
+        <activity android:name=".ui.day02.commonlayout.CommonLayoutActivity" />
+        <activity android:name=".ui.day02.logcat.LogcatActivity" />
+        <activity android:name=".ui.day02.operatorxml.OperatorXMLActivity" />
+        <activity android:name=".ui.day02.preference.PreferenceActivity" />
+        <activity android:name=".ui.day02.sdstateandsize.SDStateAndSizeActivity" />
+        <activity android:name=".ui.day02.storageoption.StorageOptionActivity" />
+        <activity android:name=".ui.day03.junit.JunitActivity" />
+        <activity android:name=".ui.day03.sqlite.SqliteActivity" />
+        <activity android:name=".ui.day03.listview.ListViewActivity" />
+        <activity android:name=".ui.day03.dialog.DialogActivity"></activity>
     </application>
 
 </manifest>

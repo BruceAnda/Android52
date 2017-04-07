@@ -40,10 +40,10 @@
         <item>Preference</item>
     </array>
     <array name="Day03">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>Junit</item>
+        <item>Sqlite</item>
+        <item>ListView</item>
+        <item>Dialog</item>
     </array>
     <array name="Day04">
         <item>HelloWorld</item>

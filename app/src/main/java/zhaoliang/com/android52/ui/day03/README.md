@@ -1,9 +1,11 @@
-# 数据存储和界面展示上
+# 数据存储和界面展示下
 ### 截图
-![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic.png)
+![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day03/pic/pic.png)
 
 ### 内容
-1. [HelloWorld](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/helloworld)
-2. [PhoneDialer](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/phonedialer)
-3. [SMSSender](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/smssender)
-4. [ClickEvent](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/clickevent)
+| 项目 | 内容 |
+|-----|-----|
+| Junit | [详细内容]() |
+| Sqlite | [详细内容]() |
+| ListView | [详细内容]() |
+| Dialog | [详细内容]() |
