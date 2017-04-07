@@ -1,5 +1,9 @@
 # Android52
 
+### 截图
+![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/main/pic/pic.png)
+
+### 内容
 | 项目 | 详细 |
 |-----|-----|
 | day01-快速入门 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01) |
