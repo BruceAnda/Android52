@@ -1,5 +1,5 @@
-# 快速入门
-### 效果图
+# 数据存储和界面展示上
+### 截图
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic.png)
 
 ### 内容
