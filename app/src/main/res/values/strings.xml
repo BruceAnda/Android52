@@ -52,10 +52,8 @@
         <item>GETAndPOST</item>
     </array>
     <array name="Day05">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>HttpClientAndAsyncHttpClient</item>
+        <item>Downloader</item>
     </array>
     <array name="Day06">
         <item>HelloWorld</item>

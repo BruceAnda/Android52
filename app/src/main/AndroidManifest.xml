@@ -50,7 +50,9 @@
         <activity android:name=".ui.day04.imageviewer.ImageViewerActivity" />
         <activity android:name=".ui.day04.htmlviewer.HTMLViewerActivity" />
         <activity android:name=".ui.day04.simplenewsclient.SimpleNewsClientActivity" />
-        <activity android:name=".ui.day04.getandpost.GETAndPOSTActivity"></activity>
+        <activity android:name=".ui.day04.getandpost.GETAndPOSTActivity" />
+        <activity android:name=".ui.day05.httpclientandasynchttpclient.HttpClientAndAsyncHttpClientActivity" />
+        <activity android:name=".ui.day05.downloader.DownloaderActivity"></activity>
     </application>
 
 </manifest>

@@ -3,3 +3,7 @@
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day05/pic/pic.png)
 
 ### 内容
+| 项目 | 详细内容 |
+|-----|-----|
+| HttpClientAndAsyncHttpClient | [详细内容]() |
+| Downloader | [详细内容]() |
