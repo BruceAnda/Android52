@@ -46,7 +46,11 @@
         <activity android:name=".ui.day03.junit.JunitActivity" />
         <activity android:name=".ui.day03.sqlite.SqliteActivity" />
         <activity android:name=".ui.day03.listview.ListViewActivity" />
-        <activity android:name=".ui.day03.dialog.DialogActivity"></activity>
+        <activity android:name=".ui.day03.dialog.DialogActivity" />
+        <activity android:name=".ui.day04.imageviewer.ImageViewerActivity" />
+        <activity android:name=".ui.day04.htmlviewer.HTMLViewerActivity" />
+        <activity android:name=".ui.day04.simplenewsclient.SimpleNewsClientActivity" />
+        <activity android:name=".ui.day04.getandpost.GETAndPOSTActivity"></activity>
     </application>
 
 </manifest>

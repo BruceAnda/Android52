@@ -46,10 +46,10 @@
         <item>Dialog</item>
     </array>
     <array name="Day04">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>ImageViewer</item>
+        <item>HTMLViewer</item>
+        <item>SimpleNewsClient</item>
+        <item>GETAndPOST</item>
     </array>
     <array name="Day05">
         <item>HelloWorld</item>
