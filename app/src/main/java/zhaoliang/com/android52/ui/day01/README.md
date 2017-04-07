@@ -6,6 +6,6 @@
 | 项目 | 详细内容 |
 |-----|-----|
 | HelloWorld | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/helloworld) |
-| PhoneDialer | [](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/phonedialer) |
-| SmsSender | [](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/smssender) |
-| ClickEvent | [](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/clickevent) |
+| PhoneDialer | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/phonedialer) |
+| SmsSender | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/smssender) |
+| ClickEvent | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01/clickevent) |
