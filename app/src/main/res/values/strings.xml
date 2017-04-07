@@ -32,10 +32,12 @@
         <item>ClickEvent</item>
     </array>
     <array name="Day02">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>CommonLayout</item>
+        <item>Logcat</item>
+        <item>SDStateAndSize</item>
+        <item>StorageOption</item>
+        <item>OperatorXML</item>
+        <item>Preference</item>
     </array>
     <array name="Day03">
         <item>HelloWorld</item>
