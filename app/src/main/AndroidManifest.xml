@@ -58,7 +58,38 @@
         <activity android:name=".ui.day06.activitylifecycle.ActivityLifeCycleActivity" />
         <activity android:name=".ui.day06.activitylunchmode.ActivityLunchModeActivity" />
         <activity android:name=".ui.day06.screenorientation.ScreenOrientationActivity" />
-        <activity android:name=".ui.day06.startactivityforresult.StartActivityForResultActivity"></activity>
+        <activity android:name=".ui.day06.startactivityforresult.StartActivityForResultActivity" />
+        <activity android:name=".ui.day07.ipdialer.IpDialerActivity" />
+        <activity android:name=".ui.day07.smsbroad.SmsBroadActivity" />
+        <activity android:name=".ui.day07.sdcardbroad.SDCardBroadActivity" />
+        <activity android:name=".ui.day07.packagebroad.PackageBroadActivity" />
+        <activity android:name=".ui.day07.bootcomplete.BootCompleteActivity" />
+        <activity android:name=".ui.day07.custombroad.CustomBroadActivity" />
+        <activity android:name=".ui.day07.orderbroad.OrderBroadActivity" />
+        <activity android:name=".ui.day07.phonerecoder.PhoneRecoderActivity" />
+        <activity android:name=".ui.day08.service.ServiceActivity" />
+        <activity android:name=".ui.day08.leaderservice.LeaderServiceActivity" />
+        <activity android:name=".ui.day08.musicplayer.MusicPlayerActivity" />
+        <activity android:name=".ui.day08.coderegistborad.CodeRegistBroadActivity" />
+        <activity android:name=".ui.day08.startremoteservice.StartRemoteServiceActivity" />
+        <activity android:name=".ui.day08.paydemo.PayDemoActivity" />
+        <activity android:name=".ui.day08.styleandtheme.StyleAndThemeActivity" />
+        <activity android:name=".ui.day08.i18n.I18NActivity" />
+        <activity android:name=".ui.day09.loadbigimage.LoadBigImageActivity" />
+        <activity android:name=".ui.day09.copybitmap.CopyBitmapActivity" />
+        <activity android:name=".ui.day09.Imagespecialeffects.ImageSpecialEffectsActivity" />
+        <activity android:name=".ui.day09.drawingboard.DrawingBoardActivity" />
+        <activity android:name=".ui.day09.heartbeat.HeartBeatActivity" />
+        <activity android:name=".ui.day09.MusicPlayer.MusicPlayerActivity" />
+        <activity android:name=".ui.day09.videoplayer.VideoPlayerActivity" />
+        <activity android:name=".ui.day09.camera.CameraActivity" />
+        <activity android:name=".ui.day10.customcontentprovider.CustomContentProviderActivity" />
+        <activity android:name=".ui.day10.operatorsms.OperatorSMSActivity" />
+        <activity android:name=".ui.day10.operatorconstacts.OperatorContactsActivity" />
+        <activity android:name=".ui.day10.contentobserver.ContentObserverActivity" />
+        <activity android:name=".ui.day11.fragment.FragmentActivity" />
+        <activity android:name=".ui.day11.animator.AnimatorActivity" />
+        <activity android:name=".ui.day12.summary.SummaryActivity"></activity>
     </application>
 
 </manifest>

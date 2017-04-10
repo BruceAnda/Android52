@@ -64,39 +64,46 @@
         <item>StartActivityForResult</item>
     </array>
     <array name="Day07">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>IPDialer</item>
+        <item>SMSBroad</item>
+        <item>SDCardBroad</item>
+        <item>BootComplete</item>
+        <item>PackageBroad</item>
+        <item>CustomBroad</item>
+        <item>OrderBroad</item>
+        <item>PhoneRecoder</item>
     </array>
     <array name="Day08">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>Service</item>
+        <item>LeaderService</item>
+        <item>MusicPlayer</item>
+        <item>CodeRegistBroad</item>
+        <item>StartRemoteService</item>
+        <item>PayDemo</item>
+        <item>StyleAndTheme</item>
+        <item>I18n</item>
     </array>
     <array name="Day09">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>LoadBigImage</item>
+        <item>CopyBitmap</item>
+        <item>ImageSpecialEffects</item>
+        <item>DrawingBoard</item>
+        <item>HeartBeat</item>
+        <item>MusicPlayer</item>
+        <item>VideoPlayer</item>
+        <item>Camera</item>
     </array>
     <array name="Day10">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>CustomContentProvider</item>
+        <item>OperatorSMS</item>
+        <item>OperatorContacts</item>
+        <item>ContentObserver</item>
     </array>
     <array name="Day11">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>Fragment</item>
+        <item>Animator</item>
     </array>
     <array name="Day12">
-        <item>HelloWorld</item>
-        <item>PhoneDialer</item>
-        <item>SmsSender</item>
-        <item>ClickEvent</item>
+        <item>Summary</item>
     </array>
 </resources>
