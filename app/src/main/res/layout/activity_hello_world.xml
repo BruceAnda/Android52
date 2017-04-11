@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context="zhaoliang.com.android52.ui.day01.helloworld.HelloWorldActivity">
 
+    <!-- 居中显示的文字 -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

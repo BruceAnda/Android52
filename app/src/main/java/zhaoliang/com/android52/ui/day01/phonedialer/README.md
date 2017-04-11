@@ -12,12 +12,14 @@
     android:orientation="vertical"
     tools:context="zhaoliang.com.android52.ui.day01.phonedialer.PhoneDialerActivity">
 
+    <!-- 输入电话号码的编辑框 -->
     <EditText
         android:id="@+id/et_phone_num"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/day01_values2" />
 
+    <!-- 拨打电话的按钮 -->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

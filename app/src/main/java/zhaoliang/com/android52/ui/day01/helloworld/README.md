@@ -11,6 +11,7 @@
     android:layout_height="match_parent"
     tools:context="zhaoliang.com.android52.ui.day01.helloworld.HelloWorldActivity">
 
+    <!-- 居中显示的文字 -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,9 +40,15 @@ import zhaoliang.com.android52.R;
  */
 public class HelloWorldActivity extends Activity {
 
+    /**
+     * 当Activity创建的时候系统自动调用这个方法
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // 设置显示的内容布局文件
         setContentView(R.layout.activity_hello_world);
     }
 }

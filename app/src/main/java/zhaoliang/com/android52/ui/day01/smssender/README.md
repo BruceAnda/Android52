@@ -12,12 +12,14 @@
     android:orientation="vertical"
     tools:context="zhaoliang.com.android52.ui.day01.smssender.SmsSenderActivity">
 
+    <!-- 输入电话好号码的编辑框 -->
     <EditText
         android:id="@+id/et_sms_phone_num"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/day01_values2" />
 
+    <!-- 输入短信内容的编辑框 -->
     <EditText
         android:id="@+id/et_sms_content"
         android:layout_width="match_parent"
@@ -26,6 +28,7 @@
         android:gravity="top"
         android:hint="@string/day01_values4" />
 
+    <!-- 发送按钮 -->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

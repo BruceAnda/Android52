@@ -6,6 +6,7 @@
     android:orientation="vertical"
     tools:context="zhaoliang.com.android52.ui.day01.clickevent.ClickEventActivity">
 
+    <!-- 按钮 -->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

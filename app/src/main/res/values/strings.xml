@@ -1,5 +1,8 @@
 <resources>
+    <!-- 应用的名称 -->
     <string name="app_name">Android52</string>
+
+    <!-- 快速入门所用到的字符串 -->
     <string name="day01_values1">HelloWorld!</string>
     <string name="day01_values2">请输入电话号码！</string>
     <string name="day01_values3">拨打电话</string>
@@ -10,6 +13,7 @@
     <string name="day01_values8">第三种点击事件写法</string>
     <string name="day01_values9">第四种点击事件写法</string>
 
+    <!-- 总纲内容列表 -->
     <array name="MainItem">
         <item>day01_快速入门</item>
         <item>day02_数据存储和界面展示上</item>
@@ -25,6 +29,7 @@
         <item>day12_总结</item>
     </array>
 
+    <!-- 快速入门内容列表 -->
     <array name="Day01">
         <item>HelloWorld</item>
         <item>PhoneDialer</item>

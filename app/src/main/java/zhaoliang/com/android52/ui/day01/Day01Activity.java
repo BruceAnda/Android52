@@ -12,15 +12,28 @@ import zhaoliang.com.android52.ui.day01.phonedialer.PhoneDialerActivity;
 import zhaoliang.com.android52.ui.day01.smssender.SmsSenderActivity;
 
 /**
- * 第一天内容列表
+ * 快速入门
  */
 public class Day01Activity extends BaseListActivity {
 
+    /**
+     * 填充列表数据
+     *
+     * @return
+     */
     @Override
     protected String[] fillData() {
         return getResources().getStringArray(R.array.Day01);
     }
 
+    /**
+     * 列表点击事件
+     *
+     * @param l
+     * @param v
+     * @param position
+     * @param id
+     */
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         Intent intent = null;
