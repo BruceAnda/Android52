@@ -2,6 +2,7 @@
 
 ### 布局代码
 1. 主界面
+
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic2.png)
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -63,6 +64,7 @@
 </LinearLayout>
 ```
 2. LinearLayoutDemoOne
+
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic3.png)
 ```
 <?xml version="1.0" encoding="utf-8"?>
