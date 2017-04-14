@@ -89,7 +89,14 @@
         <activity android:name=".ui.day10.contentobserver.ContentObserverActivity" />
         <activity android:name=".ui.day11.fragment.FragmentActivity" />
         <activity android:name=".ui.day11.animator.AnimatorActivity" />
-        <activity android:name=".ui.day12.summary.SummaryActivity"></activity>
+        <activity android:name=".ui.day12.summary.SummaryActivity" />
+        <activity android:name=".ui.day02.commonlayout.layout.LinearLayoutDemoOneActivity" />
+        <activity android:name=".ui.day02.commonlayout.layout.LinearLayoutDemoTwoActivity" />
+        <activity android:name=".ui.day02.commonlayout.layout.RelativeLayoutDemoOneActivity" />
+        <activity android:name=".ui.day02.commonlayout.layout.RelativeLayoutDemoTwoActivity" />
+        <activity android:name=".ui.day02.commonlayout.layout.FrameLayoutDemoActivity" />
+        <activity android:name=".ui.day02.commonlayout.layout.TableLayoutDemoActivity" />
+        <activity android:name=".ui.day02.commonlayout.layout.AbsolueLayoutDemoActivity"></activity>
     </application>
 
 </manifest>

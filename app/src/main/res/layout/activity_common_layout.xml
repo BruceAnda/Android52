@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="zhaoliang.com.android52.ui.day02.commonlayout.CommonLayoutActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layout"
+        android:text="@string/day02_values1" />
+
+    <Button
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layout"
+        android:text="@string/day02_values2" />
+
+    <Button
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layout"
+        android:text="@string/day02_values3" />
+
+    <Button
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layout"
+        android:text="@string/day02_values4" />
+
+    <Button
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layout"
+        android:text="@string/day02_values5" />
+
+    <Button
+        android:id="@+id/layout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layout"
+        android:text="@string/day02_values6" />
+
+    <Button
+        android:id="@+id/layout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="layout"
+        android:text="@string/day02_values7" />
+</LinearLayout>

@@ -13,6 +13,70 @@
     <string name="day01_values8">第三种点击事件写法</string>
     <string name="day01_values9">第四种点击事件写法</string>
 
+    <!-- 数据存储和界面展示上所用到的字符串 -->
+    <string name="day02_values1">LinearLayoutDemoOne</string>
+    <string name="day02_values2">LinearLayoutDemoTwo</string>
+    <string name="day02_values3">RelativeLayoutDemoOne</string>
+    <string name="day02_values4">RelativeLayoutDemoTwo</string>
+    <string name="day02_values5">FrameLayoutDemo</string>
+    <string name="day02_values6">TableLayoutDemo</string>
+    <string name="day02_values7">AbsoluteLayoutDemo</string>
+    <string name="day02_values8">MC</string>
+    <string name="day02_values9">M+</string>
+    <string name="day02_values10">M-</string>
+    <string name="day02_values11">MR</string>
+    <string name="day02_values12">C</string>
+    <string name="day02_values13">+/-</string>
+    <string name="day02_values14">/</string>
+    <string name="day02_values15">*</string>
+    <string name="day02_values16">7</string>
+    <string name="day02_values17">8</string>
+    <string name="day02_values18">9</string>
+    <string name="day02_values19">-</string>
+    <string name="day02_values20">4</string>
+    <string name="day02_values21">5</string>
+    <string name="day02_values22">6</string>
+    <string name="day02_values23">+</string>
+    <string name="day02_values24">1</string>
+    <string name="day02_values25">2</string>
+    <string name="day02_values26">3</string>
+    <string name="day02_values27">0</string>
+    <string name="day02_values28">.</string>
+    <string name="day02_values29">=</string>
+    <string name="day02_values30">center</string>
+    <string name="day02_values31">up</string>
+    <string name="day02_values32">bottom</string>
+    <string name="day03_values33">left</string>
+    <string name="day02_values34">leftup</string>
+    <string name="day02_values35">leftbottom</string>
+    <string name="day02_values36">right</string>
+    <string name="day02_values37">rightup</string>
+    <string name="day02_values38">rightbottom</string>
+    <string name="day03_values39">姓名</string>
+    <string name="day02_values40">年龄</string>
+    <string name="day02_values41">住址</string>
+    <string name="day02_values42">张三</string>
+    <string name="day02_values43">22</string>
+    <string name="day02_values44">北京</string>
+    <string name="day02_values45">李四</string>
+    <string name="day02_values46">24</string>
+    <string name="day02_values47">北京</string>
+    <string name="day02_values48">王五</string>
+    <string name="day02_values49">35</string>
+    <string name="day02_values50">北京</string>
+    <string name="day02_values51">绝对布局</string>
+
+    <!-- 数据存储和界面展示下所用到的字符串 -->
+    <!-- 网络编程上所用到的字符串 -->
+    <!-- 网络编程下所用到的字符串 -->
+    <!-- 页面跳转和数据传递所用到的字符串 -->
+    <!-- 广播和服务上所用到的字符串 -->
+    <!-- 广播和服务下所用到的字符串 -->
+    <!-- 多媒体编程所用到的字符串 -->
+    <!-- 内容提供者所用到的字符串 -->
+    <!-- 新特性和知识点回顾所用到的字符串 -->
+    <!-- 总结所用到的字符串 -->
+
     <!-- 总纲内容列表 -->
     <array name="MainItem">
         <item>day01_快速入门</item>

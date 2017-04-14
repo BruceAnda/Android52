@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0, 1, 2"
+    tools:context="zhaoliang.com.android52.ui.day02.commonlayout.layout.FrameLayoutDemoActivity">
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day03_values39" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values40" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values41" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values42" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values43" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values44" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values45" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values46" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values47" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values48" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values49" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/day02_values50" />
+    </TableRow>
+</TableLayout>

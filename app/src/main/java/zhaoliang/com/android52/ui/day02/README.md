@@ -5,9 +5,9 @@
 ### 内容
 | 项目 | | 完成情况 | 详细内容 |
 |-----|-----|-----|
-| CommonLayout | 已完成 | [详细内容]() |
-| Logcat | 已完成 | [详细内容]() |
-| SDStateAndSize | 已完成 | [详细内容]() |
-| StorageOption | 已完成 | [详细内容]() |
-| OperatorXml | 已完成 | [详细内容]() |
-| Preference | 已完成 | [详细内容]() |
+| CommonLayout | 已完成 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day02/commonlayout) |
+| Logcat | 已完成 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day02/logcat) |
+| SDStateAndSize | 已完成 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day02/sdstateandsize) |
+| StorageOption | 已完成 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day02/storageoption) |
+| OperatorXml | 已完成 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day02/operatorxml) |
+| Preference | 已完成 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day02/preference) |
