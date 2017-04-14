@@ -139,6 +139,7 @@
 </LinearLayout>
 ```
 3. LinearLayoutDemoTwo
+
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic4.png)
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -345,6 +346,7 @@
 </LinearLayout>
 ```
 4. RelativeLayoutDemoOne
+
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic5.png)
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -419,6 +421,7 @@
 </RelativeLayout>
 ```
 5. RelativeLayoutDemoTwo
+
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic6.png)
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -493,6 +496,7 @@
 </RelativeLayout>
 ```
 6. FrameLayoutDemo
+
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic7.png)
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -553,6 +557,7 @@
 </FrameLayout>
 ```
 7. TableLayoutDemo
+
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic8.png)
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -625,6 +630,7 @@
 </TableLayout>
 ```
 8. AbsoluteLayoutDemo
+
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic9.png)
 ```
 <?xml version="1.0" encoding="utf-8"?>
