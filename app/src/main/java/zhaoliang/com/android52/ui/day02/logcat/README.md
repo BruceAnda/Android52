@@ -1,4 +1,4 @@
-# HelloWorld
+# Logcat
 ### 截图
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic10.png)
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day02/pic/pic11.png)
