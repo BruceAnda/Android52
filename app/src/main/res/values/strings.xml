@@ -65,6 +65,7 @@
     <string name="day02_values49">35</string>
     <string name="day02_values50">北京</string>
     <string name="day02_values51">绝对布局</string>
+    <string name="day02_values52">Logcat等级 \n1.verbose \n2.debug \n3.info \n4.warn \n5.error</string>
 
     <!-- 数据存储和界面展示下所用到的字符串 -->
     <!-- 网络编程上所用到的字符串 -->
