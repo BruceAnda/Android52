@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <!-- 发送短信的权限 -->
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 使用SD卡的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -96,7 +98,11 @@
         <activity android:name=".ui.day02.commonlayout.layout.RelativeLayoutDemoTwoActivity" />
         <activity android:name=".ui.day02.commonlayout.layout.FrameLayoutDemoActivity" />
         <activity android:name=".ui.day02.commonlayout.layout.TableLayoutDemoActivity" />
-        <activity android:name=".ui.day02.commonlayout.layout.AbsolueLayoutDemoActivity"></activity>
+        <activity android:name=".ui.day02.commonlayout.layout.AbsolueLayoutDemoActivity" />
+        <activity android:name=".ui.day02.storageoption.activity.InternalStorageActivity" />
+        <activity android:name=".ui.day02.storageoption.activity.ExternalStorageActivity" />
+        <activity android:name=".ui.day02.storageoption.activity.SharedPreferencesActivity" />
+        <activity android:name=".ui.day02.storageoption.activity.base.BaseStorageActivity"></activity>
     </application>
 
 </manifest>

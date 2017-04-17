@@ -41,11 +41,13 @@ public class MainActivity extends BaseListActivity {
 
         // Here, thisActivity is the current activity
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED
-                || ContextCompat.checkSelfPermission(this, Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {
+                || ContextCompat.checkSelfPermission(this, Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED
+                || ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
 
             // Should we show an explanation?
-            if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.CALL_PHONE) ||
-                    ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.SEND_SMS)) {
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.CALL_PHONE)
+                    || ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.SEND_SMS)
+                    || ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
 
                 // Show an expanation to the user *asynchronously* -- don't block
                 // this thread waiting for the user's response! After the user
@@ -71,7 +73,8 @@ public class MainActivity extends BaseListActivity {
         ActivityCompat.requestPermissions(this,
                 new String[]{
                         Manifest.permission.CALL_PHONE,
-                        Manifest.permission.SEND_SMS
+                        Manifest.permission.SEND_SMS,
+                        Manifest.permission.WRITE_EXTERNAL_STORAGE,
                 },
                 MY_PERMISSIONS_REQUEST_CODE);
     }

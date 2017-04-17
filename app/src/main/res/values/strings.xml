@@ -66,6 +66,13 @@
     <string name="day02_values50">北京</string>
     <string name="day02_values51">绝对布局</string>
     <string name="day02_values52">Logcat等级 \n1.verbose \n2.debug \n3.info \n4.warn \n5.error</string>
+    <string name="day02_values53">username</string>
+    <string name="day02_values54">password</string>
+    <string name="day02_values55">记住账号</string>
+    <string name="day02_values56">登录</string>
+    <string name="day02_values57">内部存储</string>
+    <string name="day02_values58">外部存储</string>
+    <string name="day02_values59">SharedPreferences</string>
 
     <!-- 数据存储和界面展示下所用到的字符串 -->
     <!-- 网络编程上所用到的字符串 -->
