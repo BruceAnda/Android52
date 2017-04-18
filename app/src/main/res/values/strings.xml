@@ -73,6 +73,11 @@
     <string name="day02_values57">内部存储</string>
     <string name="day02_values58">外部存储</string>
     <string name="day02_values59">SharedPreferences</string>
+    <string name="day02_values60">序列化XML</string>
+    <string name="day02_values61">解析XML</string>
+    <string name="day02_values62">关闭</string>
+    <string name="day02_values63">开启</string>
+    <string name="day02_values64">自动更新</string>
 
     <!-- 数据存储和界面展示下所用到的字符串 -->
     <!-- 网络编程上所用到的字符串 -->
