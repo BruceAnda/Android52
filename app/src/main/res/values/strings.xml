@@ -83,6 +83,7 @@
     <string name="day02_values62">关闭</string>
     <string name="day02_values63">开启</string>
     <string name="day02_values64">自动更新</string>
+    <string name="day03_values1">学会使用Android中Junit测试代码</string>
 
     <!-- 数据存储和界面展示下所用到的字符串 -->
     <!-- 网络编程上所用到的字符串 -->
