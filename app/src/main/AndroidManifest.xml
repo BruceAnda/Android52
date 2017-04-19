@@ -9,6 +9,10 @@
     <!-- 使用SD卡的权限 -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +20,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!--Include the AdActivity configChanges and theme. -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
         <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -102,7 +112,8 @@
         <activity android:name=".ui.day02.storageoption.activity.InternalStorageActivity" />
         <activity android:name=".ui.day02.storageoption.activity.ExternalStorageActivity" />
         <activity android:name=".ui.day02.storageoption.activity.SharedPreferencesActivity" />
-        <activity android:name=".ui.day02.storageoption.activity.base.BaseStorageActivity"></activity>
+        <activity android:name=".ui.day02.storageoption.activity.base.BaseStorageActivity" />
+        <activity android:name=".ui.ads.nativeads.BaseNativeAdListActivity"></activity>
     </application>
 
 </manifest>

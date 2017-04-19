@@ -1,9 +1,7 @@
 package zhaoliang.com.android52.ui.day01.helloworld;
 
-import android.app.Activity;
-import android.os.Bundle;
-
 import zhaoliang.com.android52.R;
+import zhaoliang.com.android52.ui.ads.bannerads.BaseBannerAdActivity;
 
 /**
  * <pre>
@@ -13,17 +11,10 @@ import zhaoliang.com.android52.R;
  *          2. TextView有一个text的属性可以用来写文字
  * </pre>
  */
-public class HelloWorldActivity extends Activity {
+public class HelloWorldActivity extends BaseBannerAdActivity {
 
-    /**
-     * 当Activity创建的时候系统自动调用这个方法
-     *
-     * @param savedInstanceState
-     */
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        // 设置显示的内容布局文件
-        setContentView(R.layout.activity_hello_world);
+    protected int setContentView() {
+        return R.layout.activity_hello_world;
     }
 }

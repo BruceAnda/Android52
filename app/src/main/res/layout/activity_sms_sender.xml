@@ -28,4 +28,6 @@
         android:layout_height="wrap_content"
         android:onClick="send"
         android:text="@string/day01_values5" />
+
+    <include layout="@layout/item_banner_ad" />
 </LinearLayout>

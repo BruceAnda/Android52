@@ -1,12 +1,12 @@
 package zhaoliang.com.android52.ui.day01.smssender;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.EditText;
 
 import zhaoliang.com.android52.R;
+import zhaoliang.com.android52.ui.ads.bannerads.BaseBannerAdActivity;
 
 /**
  * <pre>
@@ -17,12 +17,11 @@ import zhaoliang.com.android52.R;
  *          3. 添加发送短信的权限
  * </pre>
  */
-public class SmsSenderActivity extends Activity {
+public class SmsSenderActivity extends BaseBannerAdActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sms_sender);
+    protected int setContentView() {
+        return R.layout.activity_sms_sender;
     }
 
     /**

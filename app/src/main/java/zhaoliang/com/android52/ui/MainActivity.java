@@ -11,10 +11,10 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
-import android.widget.ListView;
+import android.widget.AdapterView;
 
 import zhaoliang.com.android52.R;
-import zhaoliang.com.android52.ui.base.BaseListActivity;
+import zhaoliang.com.android52.ui.ads.nativeads.BaseNativeAdListActivity;
 import zhaoliang.com.android52.ui.day01.Day01Activity;
 import zhaoliang.com.android52.ui.day02.Day02Activity;
 import zhaoliang.com.android52.ui.day03.Day03Activity;
@@ -31,7 +31,7 @@ import zhaoliang.com.android52.ui.day12.Day12Activity;
 /**
  * 主界面列表Activity
  */
-public class MainActivity extends BaseListActivity {
+public class MainActivity extends BaseNativeAdListActivity {
 
     private static final int MY_PERMISSIONS_REQUEST_CODE = 1;
 
@@ -92,10 +92,11 @@ public class MainActivity extends BaseListActivity {
                     // contacts-related task you need to do.
 
                 } else {
-                    MyDialogFragment myDialogFragment = new MyDialogFragment();
-                    myDialogFragment.show(getFragmentManager(), "permission_dialog");
+                   // MyDialogFragment myDialogFragment = new MyDialogFragment();
+                   // myDialogFragment.show(getFragmentManager(), "permission_dialog");
                     // permission denied, boo! Disable the
                     // functionality that depends on this permission.
+                    showDialog(MY_PERMISSIONS_REQUEST_CODE);
                 }
                 return;
             }
@@ -118,49 +119,47 @@ public class MainActivity extends BaseListActivity {
     /**
      * 列表项点击事件
      *
-     * @param l
-     * @param v
      * @param position
      * @param id
      */
     @Override
-    protected void onListItemClick(ListView l, View v, int position, long id) {
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Intent intent = null;
         switch (position) {
             case 0:
                 intent = new Intent(this, Day01Activity.class);
                 break;
-            case 1:
+            case 2:
                 intent = new Intent(this, Day02Activity.class);
                 break;
-            case 2:
+            case 4:
                 intent = new Intent(this, Day03Activity.class);
                 break;
-            case 3:
+            case 6:
                 intent = new Intent(this, Day04Activity.class);
                 break;
-            case 4:
+            case 8:
                 intent = new Intent(this, Day05Activity.class);
                 break;
-            case 5:
+            case 10:
                 intent = new Intent(this, Day06Activity.class);
                 break;
-            case 6:
+            case 12:
                 intent = new Intent(this, Day07Activity.class);
                 break;
-            case 7:
+            case 14:
                 intent = new Intent(this, Day08Activity.class);
                 break;
-            case 8:
+            case 16:
                 intent = new Intent(this, Day09Activity.class);
                 break;
-            case 9:
+            case 18:
                 intent = new Intent(this, Day10Activity.class);
                 break;
-            case 10:
+            case 20:
                 intent = new Intent(this, Day11Activity.class);
                 break;
-            case 11:
+            case 22:
                 intent = new Intent(this, Day12Activity.class);
                 break;
         }
@@ -168,21 +167,20 @@ public class MainActivity extends BaseListActivity {
             startActivity(intent);
     }
 
-    class MyDialogFragment extends DialogFragment {
-        @Override
-        public Dialog onCreateDialog(Bundle savedInstanceState) {
-            return new AlertDialog
-                    .Builder(getActivity())
-                    .setTitle("提示！")
-                    .setMessage("请给我权限！")
-                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            requstPermission();
-                        }
-                    })
-                    .setCancelable(false)
-                    .create();
-        }
+    @Override
+    protected Dialog onCreateDialog(int id) {
+        return new AlertDialog
+                .Builder(this)
+                .setTitle("提示！")
+                .setMessage("请给我权限！")
+                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        requstPermission();
+                    }
+                })
+                .setCancelable(false)
+                .create();
     }
+
 }

@@ -1,13 +1,12 @@
 package zhaoliang.com.android52.ui.day01.phonedialer;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
 import zhaoliang.com.android52.R;
+import zhaoliang.com.android52.ui.ads.bannerads.BaseBannerAdActivity;
 
 /**
  * <pre>
@@ -18,12 +17,11 @@ import zhaoliang.com.android52.R;
  *          3. 添加拨打电话的权限
  * </pre>
  */
-public class PhoneDialerActivity extends Activity {
+public class PhoneDialerActivity extends BaseBannerAdActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_phone_dialer);
+    protected int setContentView() {
+        return R.layout.activity_phone_dialer;
     }
 
     /**

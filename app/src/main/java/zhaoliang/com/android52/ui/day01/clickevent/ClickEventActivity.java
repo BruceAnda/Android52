@@ -1,12 +1,12 @@
 package zhaoliang.com.android52.ui.day01.clickevent;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 import zhaoliang.com.android52.R;
+import zhaoliang.com.android52.ui.ads.bannerads.BaseBannerAdActivity;
 
 /**
  * <pre>
@@ -16,15 +16,18 @@ import zhaoliang.com.android52.R;
  *          2. 在Java代码中编写点击事件
  * </pre>
  */
-public class ClickEventActivity extends Activity implements View.OnClickListener {
+public class ClickEventActivity extends BaseBannerAdActivity implements View.OnClickListener {
 
     private Button mBtnClickTwo, mBtnClickThree, mBtnClickFour;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_click_event);
+    protected int setContentView() {
+        return R.layout.activity_click_event;
+    }
 
+    @Override
+    protected void findView() {
+        super.findView();
         mBtnClickTwo = (Button) findViewById(R.id.btn_click_two);
         mBtnClickThree = (Button) findViewById(R.id.btn_click_three);
         mBtnClickFour = (Button) findViewById(R.id.btn_click_four);

@@ -2,6 +2,11 @@
     <!-- 应用的名称 -->
     <string name="app_name">Android52</string>
 
+    <!-- 广告unit -->
+    <string name="native_ad_unit_id">ca-app-pub-5108101572891948/4458445117</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5108101572891948/4157393912</string>
+
+
     <!-- 快速入门所用到的字符串 -->
     <string name="day01_values1">HelloWorld!</string>
     <string name="day01_values2">请输入电话号码！</string>
@@ -93,99 +98,168 @@
     <!-- 总纲内容列表 -->
     <array name="MainItem">
         <item>day01_快速入门</item>
+        <item>ad</item>
         <item>day02_数据存储和界面展示上</item>
+        <item>ad</item>
         <item>day03_数据存储和界面展示下</item>
+        <item>ad</item>
         <item>day04_网络编程上</item>
+        <item>ad</item>
         <item>day05_网络编程下</item>
+        <item>ad</item>
         <item>day06_页面跳转和数据传递</item>
+        <item>ad</item>
         <item>day07_广播和服务上</item>
+        <item>ad</item>
         <item>day08_广播和服务下</item>
+        <item>ad</item>
         <item>day09_多媒体编程</item>
+        <item>ad</item>
         <item>day10_内容提供者</item>
+        <item>ad</item>
         <item>day11_新特性和知识点回顾</item>
+        <item>ad</item>
         <item>day12_总结</item>
+        <item>ad</item>
     </array>
 
     <!-- 快速入门内容列表 -->
     <array name="Day01">
         <item>HelloWorld</item>
+        <item>ad</item>
         <item>PhoneDialer</item>
+        <item>ad</item>
         <item>SmsSender</item>
+        <item>ad</item>
         <item>ClickEvent</item>
+        <item>ad</item>
     </array>
     <array name="Day02">
         <item>CommonLayout</item>
+        <item>ad</item>
         <item>Logcat</item>
+        <item>ad</item>
         <item>SDStateAndSize</item>
+        <item>ad</item>
         <item>StorageOption</item>
+        <item>ad</item>
         <item>OperatorXML</item>
+        <item>ad</item>
         <item>Preference</item>
+        <item>ad</item>
     </array>
     <array name="Day03">
         <item>Junit</item>
+        <item>ad</item>
         <item>Sqlite</item>
+        <item>ad</item>
         <item>ListView</item>
+        <item>ad</item>
         <item>Dialog</item>
+        <item>ad</item>
     </array>
     <array name="Day04">
         <item>ImageViewer</item>
+        <item>ad</item>
         <item>HTMLViewer</item>
+        <item>ad</item>
         <item>SimpleNewsClient</item>
+        <item>ad</item>
         <item>GETAndPOST</item>
+        <item>ad</item>
     </array>
     <array name="Day05">
         <item>HttpClientAndAsyncHttpClient</item>
+        <item>ad</item>
         <item>Downloader</item>
+        <item>ad</item>
     </array>
     <array name="Day06">
         <item>SecondActivity</item>
+        <item>ad</item>
         <item>ActivityJump</item>
+        <item>ad</item>
         <item>ActivityLifeCycle</item>
+        <item>ad</item>
         <item>ActivityLunchMode</item>
+        <item>ad</item>
         <item>ScreenOrientation</item>
+        <item>ad</item>
         <item>StartActivityForResult</item>
+        <item>ad</item>
     </array>
     <array name="Day07">
         <item>IPDialer</item>
+        <item>ad</item>
         <item>SMSBroad</item>
+        <item>ad</item>
         <item>SDCardBroad</item>
+        <item>ad</item>
         <item>BootComplete</item>
+        <item>ad</item>
         <item>PackageBroad</item>
+        <item>ad</item>
         <item>CustomBroad</item>
+        <item>ad</item>
         <item>OrderBroad</item>
+        <item>ad</item>
         <item>PhoneRecoder</item>
+        <item>ad</item>
     </array>
     <array name="Day08">
         <item>Service</item>
+        <item>ad</item>
         <item>LeaderService</item>
+        <item>ad</item>
         <item>MusicPlayer</item>
+        <item>ad</item>
         <item>CodeRegistBroad</item>
+        <item>ad</item>
         <item>StartRemoteService</item>
+        <item>ad</item>
         <item>PayDemo</item>
+        <item>ad</item>
         <item>StyleAndTheme</item>
+        <item>ad</item>
         <item>I18n</item>
+        <item>ad</item>
     </array>
     <array name="Day09">
         <item>LoadBigImage</item>
+        <item>ad</item>
         <item>CopyBitmap</item>
+        <item>ad</item>
         <item>ImageSpecialEffects</item>
+        <item>ad</item>
         <item>DrawingBoard</item>
+        <item>ad</item>
         <item>HeartBeat</item>
+        <item>ad</item>
         <item>MusicPlayer</item>
+        <item>ad</item>
         <item>VideoPlayer</item>
+        <item>ad</item>
         <item>Camera</item>
+        <item>ad</item>
     </array>
     <array name="Day10">
         <item>CustomContentProvider</item>
+        <item>ad</item>
         <item>OperatorSMS</item>
+        <item>ad</item>
         <item>OperatorContacts</item>
+        <item>ad</item>
         <item>ContentObserver</item>
+        <item>ad</item>
     </array>
     <array name="Day11">
         <item>Fragment</item>
+        <item>ad</item>
         <item>Animator</item>
+        <item>ad</item>
     </array>
     <array name="Day12">
         <item>Summary</item>
+        <item>ad</item>
     </array>
 </resources>

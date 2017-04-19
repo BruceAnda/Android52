@@ -30,4 +30,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/day01_values9" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <include layout="@layout/item_banner_ad" />
+    </RelativeLayout>
 </LinearLayout>

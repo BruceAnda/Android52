@@ -12,4 +12,11 @@
         android:layout_centerInParent="true"
         android:text="@string/day01_values1"
         android:textSize="22sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/item_banner_ad" />
+    </FrameLayout>
 </RelativeLayout>
