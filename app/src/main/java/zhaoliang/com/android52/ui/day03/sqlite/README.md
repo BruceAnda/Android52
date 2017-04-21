@@ -430,7 +430,7 @@ public class TestSqlite {
     @Test
     public void testInsertApi() {
         for (int i = 0; i < 20; i++) {
-            empDao.insertSql(new Emp("李四" + i, "技术部" + i, 99999, "12432894723"));
+            empDao.insertApi(new Emp("李四" + i, "技术部" + i, 99999, "12432894723"));
         }
     }
 
