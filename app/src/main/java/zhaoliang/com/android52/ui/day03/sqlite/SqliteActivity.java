@@ -5,6 +5,9 @@ import android.os.Bundle;
 
 import zhaoliang.com.android52.R;
 
+/**
+ * Sqlite 的使用
+ */
 public class SqliteActivity extends Activity {
 
     @Override
