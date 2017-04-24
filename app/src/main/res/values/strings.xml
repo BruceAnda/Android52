@@ -87,6 +87,9 @@
     <!-- 数据存储和界面展示下所用到的字符串 -->
     <string name="day03_values1">学会使用Android中Junit测试代码</string>
     <string name="day03_values2">学会使用Sqlite来存储数据</string>
+    <string name="day03_values3">对话框</string>
+    <string name="day03_values4">单选对话框</string>
+    <string name="day03_values5">多选对话框</string>
     <array name="Names">
         <item>张三</item>
         <item>李四</item>

@@ -47,7 +47,7 @@ public class Day03Activity extends BaseNativeAdListActivity {
             case 4:
                 intent = new Intent(this, ListViewActivity.class);
                 break;
-            case 5:
+            case 6:
                 intent = new Intent(this, DialogActivity.class);
                 break;
         }
