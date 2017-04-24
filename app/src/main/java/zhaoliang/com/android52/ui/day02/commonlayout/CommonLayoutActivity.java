@@ -1,11 +1,11 @@
 package zhaoliang.com.android52.ui.day02.commonlayout;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import zhaoliang.com.android52.R;
+import zhaoliang.com.android52.ui.ads.bannerads.BaseBannerAdActivity;
 import zhaoliang.com.android52.ui.day02.commonlayout.layout.AbsolueLayoutDemoActivity;
 import zhaoliang.com.android52.ui.day02.commonlayout.layout.FrameLayoutDemoActivity;
 import zhaoliang.com.android52.ui.day02.commonlayout.layout.LinearLayoutDemoOneActivity;
@@ -17,12 +17,11 @@ import zhaoliang.com.android52.ui.day02.commonlayout.layout.TableLayoutDemoActiv
 /**
  * 常用布局
  */
-public class CommonLayoutActivity extends Activity {
+public class CommonLayoutActivity extends BaseBannerAdActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_common_layout);
+    protected int setContentView() {
+        return R.layout.activity_common_layout;
     }
 
     /**

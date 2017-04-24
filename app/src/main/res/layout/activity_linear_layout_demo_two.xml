@@ -199,4 +199,6 @@
             android:layout_weight="1"
             android:text="@string/day02_values29" />
     </LinearLayout>
+
+    <include layout="@layout/item_banner_ad" />
 </LinearLayout>

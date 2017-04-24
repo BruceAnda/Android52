@@ -9,5 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="@string/day02_values52"/>
+        android:text="@string/day02_values52" />
+
+    <include layout="@layout/item_banner_ad" />
 </RelativeLayout>

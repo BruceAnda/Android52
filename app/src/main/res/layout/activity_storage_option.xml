@@ -6,6 +6,8 @@
     android:orientation="vertical"
     tools:context="zhaoliang.com.android52.ui.day02.storageoption.StorageOptionActivity">
 
+    <include layout="@layout/item_banner_ad" />
+
     <Button
         android:id="@+id/btn_internal_storage"
         android:layout_width="match_parent"
@@ -26,4 +28,5 @@
         android:layout_height="wrap_content"
         android:onClick="storage"
         android:text="@string/day02_values59" />
+
 </LinearLayout>

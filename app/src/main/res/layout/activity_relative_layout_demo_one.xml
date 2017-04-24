@@ -67,4 +67,6 @@
         android:layout_below="@id/center"
         android:layout_toRightOf="@id/center"
         android:text="@string/day02_values38" />
+
+    <include layout="@layout/item_banner_ad" />
 </RelativeLayout>

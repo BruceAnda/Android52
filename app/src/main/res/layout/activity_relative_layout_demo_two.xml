@@ -67,4 +67,6 @@
         android:layout_below="@id/center"
         android:layout_toRightOf="@id/center"
         android:src="@mipmap/rightbottom" />
+
+    <include layout="@layout/item_banner_ad" />
 </RelativeLayout>

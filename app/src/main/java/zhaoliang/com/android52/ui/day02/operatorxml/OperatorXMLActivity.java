@@ -1,6 +1,5 @@
 package zhaoliang.com.android52.ui.day02.operatorxml;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.os.Environment;
 import android.util.Xml;
@@ -22,12 +21,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import zhaoliang.com.android52.R;
+import zhaoliang.com.android52.ui.ads.bannerads.BaseBannerAdActivity;
 import zhaoliang.com.android52.ui.day02.operatorxml.domain.Person;
 
 /**
  * 序列化和解析XML
  */
-public class OperatorXMLActivity extends Activity {
+public class OperatorXMLActivity extends BaseBannerAdActivity {
 
     // 声明控件
     private ListView mListView;
@@ -37,13 +37,17 @@ public class OperatorXMLActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_operator_xml);
         mListView = (ListView) findViewById(R.id.list_view);
         mPath = Environment.getExternalStorageDirectory() + File.separator + "persons.xml";
         persons = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             persons.add(new Person("张三" + i, 10 + i, "北京" + i));
         }
+    }
+
+    @Override
+    protected int setContentView() {
+        return R.layout.activity_operator_xml;
     }
 
     /**

@@ -7,7 +7,7 @@
 | 项目 | 完成情况 | 是否加入广告 | 详细 |
 |-----|-----|-----|-----|
 | day01-快速入门 | 已完成 | 已经加入 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day01) |
-| day02-数据存储和界面展示上 | 已完成 | 未加入 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day02) |
+| day02-数据存储和界面展示上 | 已完成 | 已经加入 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day02) |
 | day03-数据存储和界面展示下 | 未完成 | 未加入 |[详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day03) |
 | day04-网络编程上 | 未完成 | 未加入 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day04) |
 | day05-网络编程下 | 未完成 | 未加入 | [详细内容](https://github.com/BruceAnda/Android52/tree/master/app/src/main/java/zhaoliang/com/android52/ui/day05) |

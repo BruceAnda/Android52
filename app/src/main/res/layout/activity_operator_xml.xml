@@ -6,6 +6,8 @@
     android:orientation="vertical"
     tools:context="zhaoliang.com.android52.ui.day02.operatorxml.OperatorXMLActivity">
 
+    <include layout="@layout/item_banner_ad" />
+
     <Button
         android:id="@+id/btn_write"
         android:layout_width="match_parent"
@@ -24,4 +26,5 @@
         android:id="@+id/list_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 </LinearLayout>

@@ -1,68 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="0, 1, 2"
+    android:orientation="vertical"
     tools:context="zhaoliang.com.android52.ui.day02.commonlayout.layout.FrameLayoutDemoActivity">
 
-    <TableRow>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:stretchColumns="0, 1, 2">
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day03_values39" />
+        <TableRow>
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values40" />
+            <TextView
+                android:gravity="center"
+                android:text="@string/day03_values39" />
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values41" />
-    </TableRow>
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values40" />
 
-    <TableRow>
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values41" />
+        </TableRow>
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values42" />
+        <TableRow>
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values43" />
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values42" />
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values44" />
-    </TableRow>
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values43" />
 
-    <TableRow>
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values44" />
+        </TableRow>
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values45" />
+        <TableRow>
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values46" />
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values45" />
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values47" />
-    </TableRow>
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values46" />
 
-    <TableRow>
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values47" />
+        </TableRow>
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values48" />
+        <TableRow>
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values49" />
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values48" />
 
-        <TextView
-            android:gravity="center"
-            android:text="@string/day02_values50" />
-    </TableRow>
-</TableLayout>
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values49" />
+
+            <TextView
+                android:gravity="center"
+                android:text="@string/day02_values50" />
+        </TableRow>
+
+    </TableLayout>
+
+    <include layout="@layout/item_banner_ad" />
+</LinearLayout>

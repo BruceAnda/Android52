@@ -54,4 +54,12 @@
         android:layout_height="wrap_content"
         android:onClick="layout"
         android:text="@string/day02_values7" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <include layout="@layout/item_banner_ad" />
+    </RelativeLayout>
 </LinearLayout>

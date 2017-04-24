@@ -1,11 +1,11 @@
 package zhaoliang.com.android52.ui.day02.storageoption;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import zhaoliang.com.android52.R;
+import zhaoliang.com.android52.ui.ads.bannerads.BaseBannerAdActivity;
 import zhaoliang.com.android52.ui.day02.storageoption.activity.ExternalStorageActivity;
 import zhaoliang.com.android52.ui.day02.storageoption.activity.InternalStorageActivity;
 import zhaoliang.com.android52.ui.day02.storageoption.activity.SharedPreferencesActivity;
@@ -13,12 +13,11 @@ import zhaoliang.com.android52.ui.day02.storageoption.activity.SharedPreferences
 /**
  * 存储选择
  */
-public class StorageOptionActivity extends Activity {
+public class StorageOptionActivity extends BaseBannerAdActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_storage_option);
+    protected int setContentView() {
+        return R.layout.activity_storage_option;
     }
 
     /**

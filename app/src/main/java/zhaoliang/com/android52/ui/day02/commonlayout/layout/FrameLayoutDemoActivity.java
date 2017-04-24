@@ -1,17 +1,17 @@
 package zhaoliang.com.android52.ui.day02.commonlayout.layout;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.widget.TextView;
 
 import zhaoliang.com.android52.R;
+import zhaoliang.com.android52.ui.ads.bannerads.BaseBannerAdActivity;
 
 /**
  * 帧布局
  */
-public class FrameLayoutDemoActivity extends Activity {
+public class FrameLayoutDemoActivity extends BaseBannerAdActivity {
 
     // 界面上Widget的id
     private int[] mIds = {R.id.tv1, R.id.tv2, R.id.tv3, R.id.tv4, R.id.tv5, R.id.tv6, R.id.tv7};
@@ -37,7 +37,6 @@ public class FrameLayoutDemoActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_frame_layout_demo);
 
         for (int i = 0; i < mIds.length; i++) {
             mTextViews[i] = (TextView) findViewById(mIds[i]);
@@ -45,5 +44,10 @@ public class FrameLayoutDemoActivity extends Activity {
         }
 
         mHandler.sendEmptyMessage(0);
+    }
+
+    @Override
+    protected int setContentView() {
+        return R.layout.activity_frame_layout_demo;
     }
 }

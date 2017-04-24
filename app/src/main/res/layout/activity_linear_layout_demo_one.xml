@@ -67,4 +67,6 @@
             android:layout_weight="1"
             android:background="#aaaa00" />
     </LinearLayout>
+
+    <include layout="@layout/item_banner_ad" />
 </LinearLayout>

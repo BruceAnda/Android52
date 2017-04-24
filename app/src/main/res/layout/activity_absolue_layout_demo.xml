@@ -12,4 +12,6 @@
         android:layout_x="100dp"
         android:layout_y="200dp"
         android:text="@string/day02_values51" />
+
+    <include layout="@layout/item_banner_ad"/>
 </AbsoluteLayout>
