@@ -6,4 +6,8 @@
     android:layout_height="match_parent"
     tools:context="zhaoliang.com.android52.ui.day04.simplenewsclient.SimpleNewsClientActivity">
 
+    <ListView
+        android:id="@+id/news_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>
