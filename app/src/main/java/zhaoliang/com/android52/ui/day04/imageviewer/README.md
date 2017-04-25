@@ -1,7 +1,8 @@
-# HelloWorld
+# ImageViewer
 
 ### 布局代码
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day04/pic/pic2.png)
+
 1. ImageViewer
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -49,6 +50,7 @@
 </LinearLayout>
 ```
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day04/pic/pic3.png)
+
 2. CustomImageViewer
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -78,6 +80,7 @@
 </LinearLayout>
 ```
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day04/pic/pic3.png)
+
 3. SmartIamgeView
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -107,6 +110,7 @@
 </LinearLayout>
 ```
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day04/pic/pic3.png)
+
 4. Picasso
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -136,6 +140,7 @@
 </LinearLayout>
 ```
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day04/pic/pic3.png)
+
 5. Glide
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -165,6 +170,7 @@
 </LinearLayout>
 ```
 ![截图](https://github.com/BruceAnda/Android52/blob/master/screenshot/day04/pic/pic3.png)
+
 6. Fresco
 ```
 <?xml version="1.0" encoding="utf-8"?>
