@@ -97,6 +97,15 @@
     </array>
 
     <!-- 网络编程上所用到的字符串 -->
+    <string name="day04_values1">自定义的网络图片查看器</string>
+    <string name="day04_values2">SmartImageView</string>
+    <string name="day04_values3">Picasso</string>
+    <string name="day04_values4">Glide</string>
+    <string name="day04_values5">Fresco</string>
+    <string name="day04_values6">http://i.meizitu.net/2017/04/24b01.jpg</string>
+    <string name="day04_values7">查看</string>
+    <string name="day04_values8">https://www.baidu.com</string>
+
     <!-- 网络编程下所用到的字符串 -->
     <!-- 页面跳转和数据传递所用到的字符串 -->
     <!-- 广播和服务上所用到的字符串 -->

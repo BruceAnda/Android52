@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="zhaoliang.com.android52.ui.day04.imageviewer.ImageViewerActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_customimageviewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="@string/day04_values1" />
+
+    <Button
+        android:id="@+id/btn_smartimageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="@string/day04_values2" />
+
+    <Button
+        android:id="@+id/btn_picasso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="@string/day04_values3" />
+
+    <Button
+        android:id="@+id/btn_glide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="@string/day04_values4" />
+
+    <Button
+        android:id="@+id/btn_fresco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="@string/day04_values5" />
+</LinearLayout>

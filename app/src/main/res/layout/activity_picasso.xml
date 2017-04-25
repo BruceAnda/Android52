@@ -4,27 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="zhaoliang.com.android52.ui.day04.htmlviewer.HTMLViewerActivity">
+    tools:context="zhaoliang.com.android52.ui.day04.imageviewer.customimageviewer.CustomImageViewerActivity">
 
     <EditText
-        android:id="@+id/et_htmlurl"
+        android:id="@+id/et_imageurl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/day04_values8" />
+        android:text="@string/day04_values6" />
 
     <Button
+        android:onClick="show"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="show"
-        android:text="@string/day04_values7" />
+        android:text="@string/day04_values7"/>
 
-    <ScrollView
+    <ImageView
+        android:id="@+id/iv_image"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/tv_result"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </ScrollView>
+        android:layout_height="match_parent" />
 </LinearLayout>
