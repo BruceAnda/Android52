@@ -119,7 +119,9 @@
         <activity android:name=".ui.day04.imageviewer.smartimageview.SmartImageViewActivity" />
         <activity android:name=".ui.day04.imageviewer.picasso.PicassoActivity" />
         <activity android:name=".ui.day04.imageviewer.glide.GlideActivity" />
-        <activity android:name=".ui.day04.imageviewer.fresco.FrescoActivity"></activity>
+        <activity android:name=".ui.day04.imageviewer.fresco.FrescoActivity" />
+        <activity android:name=".ui.day05.httpclientandasynchttpclient.activity.HttpClientActivity" />
+        <activity android:name=".ui.day05.httpclientandasynchttpclient.activity.AsyncHttpClientActivity"></activity>
     </application>
 
 </manifest>

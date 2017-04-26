@@ -108,6 +108,8 @@
     <string name="day04_values9">武汉</string>
     <string name="day04_values10">get</string>
     <string name="day04_values11">post</string>
+    <string name="day05_values1">HttpClient</string>
+    <string name="day05_values2">AsyncHttpClient</string>
 
     <!-- 网络编程下所用到的字符串 -->
     <!-- 页面跳转和数据传递所用到的字符串 -->
