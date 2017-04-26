@@ -105,6 +105,9 @@
     <string name="day04_values6">http://i.meizitu.net/2017/04/24b01.jpg</string>
     <string name="day04_values7">查看</string>
     <string name="day04_values8">https://www.baidu.com</string>
+    <string name="day04_values9">武汉</string>
+    <string name="day04_values10">get</string>
+    <string name="day04_values11">post</string>
 
     <!-- 网络编程下所用到的字符串 -->
     <!-- 页面跳转和数据传递所用到的字符串 -->
